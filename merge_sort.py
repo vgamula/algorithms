@@ -19,7 +19,6 @@ def merge(a, b):
 
 
 def merge_sort(arr):
-    print(arr)
     if len(arr) == 1:
         return arr
     m = len(arr) // 2
